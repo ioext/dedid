@@ -18,7 +18,7 @@ ob_start();
 require_once( __DIR__ . "/../vendor/autoload.php");
 require_once( __DIR__ . "/../src/CDId.php");
 
-use dekuan\dedid\CDId;
+use ioext\dedid\CDId;
 
 
 

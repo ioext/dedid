@@ -6,7 +6,7 @@ require_once( __DIR__ . "/../src/CDId.php");
 
 
 
-use dekuan\dedid\CDId;
+use ioext\dedid\CDId;
 
 
 
@@ -70,7 +70,7 @@ function create_get_parameter()
 
 function create_usage()
 {
-	$sUsage	= "dekuan/dedid commander:" . PHP_EOL .
+	$sUsage	= "ioext/dedid commander:" . PHP_EOL .
 		PHP_EOL .
 		"Usage:" . PHP_EOL .
 		"php create.php CENTER NODE [SOURCE STRING]" . PHP_EOL .

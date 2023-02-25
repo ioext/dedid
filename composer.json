@@ -1,13 +1,13 @@
 {
-	"name"		: "dekuan/dedid",
-	"description"	: "An unique id generator for distributed database by DeKuan, Inc.",
+	"name"		: "ioext/dedid",
+	"description"	: "An unique id generator for distributed database by ioext, Inc.",
 	"type"		: "library",
 	"license"	: "proprietary",
 	"authors" :
 	[
 		{
 			"name" : "liuqixing",
-			"email" : "liuqixing@dekuan.org"
+			"email" : "liuqixing@ioext.org"
 		}
 	],
 	"extra":
@@ -27,10 +27,10 @@
 	},
 	"autoload":
 	{
-		"psr-4" : { "dekuan\\" : "src" }
+		"psr-4" : { "ioext\\dedid\\" : "src/" }
 	},
 	"autoload-dev" :
 	{
-		"psr-4" : { "dekuan\\" : "src" }
+		"psr-4" : { "ioext\\dedid\\" : "src/" }
 	}
 }

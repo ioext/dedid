@@ -1,6 +1,6 @@
 <?php
 
-namespace dekuan\dedid;
+namespace ioext\dedid;
 
 //
 //	STRUCTURE

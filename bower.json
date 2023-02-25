@@ -1,9 +1,9 @@
 {
 	"name"		: "dedid",
-	"homepage"	: "https://github.com/dekuan/dedid",
+	"homepage"	: "https://github.com/ioext/dedid",
 	"authors"	:
 	[
-		"liuqixing <liuqixing@dekuan.org>"
+		"liuqixing <liuqixing@ioext.org>"
 	],
 	"description"	: "An unique id generator for primary key of distributed database.",
 	"main"		:
@@ -12,7 +12,7 @@
 	],
 	"keywords"	:
 	[
-		"dekuan",
+		"ioext",
 		"dedid",
 		"unique id generator",
 		"primary key",

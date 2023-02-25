@@ -1,4 +1,4 @@
-# dekuan/dedid
+# ioext/dedid
 一种为分布式数据库而设计的全局唯一 ID（主键）生成器。
 本算法的实现参考了 Twitter Snowflake，但是在最后的 12 位您不仅仅可以使用随机数字，也可以通过指定字符串来获取哈希值。
 
@@ -109,7 +109,7 @@ $cDId		= CDId::getInstance();
 $nCenter	= 0;
 $nNode		= 15;
 
-$sSrc		= "dekuan";
+$sSrc		= "ioext";
 $arrD		= [];
 $nNewId	= $cDId->createId( $nCenter, $nNode, $sSrc, $arrD );
 
@@ -158,6 +158,6 @@ Array
 
 # 如何安装
 ~~~
-# composer require dekuan/dedid
+# composer require ioext/dedid
 ~~~
-了解更多信息，敬请访问 [https://packagist.org/packages/dekuan/dedid](https://packagist.org/packages/dekuan/dedid)
+了解更多信息，敬请访问 [https://packagist.org/packages/ioext/dedid](https://packagist.org/packages/ioext/dedid)

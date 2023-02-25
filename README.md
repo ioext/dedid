@@ -1,4 +1,4 @@
-# dekuan/dedid
+# ioext/dedid
 An unique id generator for primary key of distributed database.
 This implementation of the algorithm was referenced by Twitter Snowflake,
 but in the last 12 bits you can not only use the random numbers, but also get a hash value by your specified string.
@@ -110,7 +110,7 @@ $cDId		= CDId::getInstance();
 $nCenter	= 0;
 $nNode		= 15;
 
-$sSrc		= "dekuan";
+$sSrc		= "ioext";
 $arrD		= [];
 $nNewId	= $cDId->createId( $nCenter, $nNode, $sSrc, $arrD );
 
@@ -159,6 +159,6 @@ Array
 
 # INSTALL
 ~~~
-# composer require dekuan/dedid
+# composer require ioext/dedid
 ~~~
-For more information, please visit [https://packagist.org/packages/dekuan/dedid](https://packagist.org/packages/dekuan/dedid)
+For more information, please visit [https://packagist.org/packages/ioext/dedid](https://packagist.org/packages/ioext/dedid)
